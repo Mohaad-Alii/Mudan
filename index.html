@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mudan Supermarket - Home</title>
+    <link rel="stylesheet" href="Stylesheet.css">
+</head>
+
+<body>
+
+<header>
+    <div class="container nav-container">
+
+        <div class="logo">
+            <h2>Mudan</h2>
+            <span>Supermarket</span>
+        </div>
+
+        <!-- Hamburger Button -->
+        <button class="menu-toggle" id="menuToggle">
+            ☰
+        </button>
+
+        <nav id="navMenu">
+            <a href="index.html" class="active">Home</a>
+            <a href="products.html">Products</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+    </div>
+</header>
+
+    <main>
+
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Everything You Need in One Place</h1>
+                <p>
+                    Fresh food, quality products, and everyday essentials
+                    for you and your family.
+                </p>
+                <a href="products.html" class="btn">Shop Now</a>
+            </div>
+        </section>
+
+        <section class="categories container">
+            <h2>Our Categories</h2>
+            <p>Explore our main product categories.</p>
+
+            <div class="category-grid">
+
+                <div class="category-card">
+                    <img src="Web-images/freshfruit.webp" alt="Fresh fruits">
+                    <h3>Fruits</h3>
+                </div>
+
+                <div class="category-card">
+                    <img src="Web-images/freshvegatable.webp" alt="Fresh vegetables">
+                    <h3>Vegetables</h3>
+                </div>
+
+                <div class="category-card">
+                    <img src="Web-images/rice.avif" alt="Rice">
+                    <h3>Food</h3>
+                </div>
+
+                <div class="category-card">
+                    <img src="Web-images/Dairy.avif" alt="Milk">
+                    <h3>Dairy</h3>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="offer">
+            <div class="container">
+                <h2>Weekend Special Offer</h2>
+                <p>Get up to 20% off selected products.</p>
+                <a href="products.html" class="btn">View Products</a>
+            </div>
+        </section>
+
+    </main>
+
+
+<!-- Testimonials Section -->
+<section class="testimonials-section">
+  <div class="container">
+    <h2 class="section-title">Wixii Ay Macaamiishu Ka Yiraahdeen Mudan Supermarket</h2>
+    <p class="section-subtitle">Kani waa aragtida macaamiisheena sharafta leh ee nala dukaamaysta</p>
+
+    <div class="testimonials-grid">
+      
+      <!-- Testimonial Card 1 -->
+      <div class="testimonial-card">
+        <div class="user-info">
+          <div class="user-avatar">AH</div>
+          <div>
+            <h3 class="user-name">Amina Hassan</h3>
+            <span class="user-role">Macmiil Deegaanka ah</span>
+          </div>
+        </div>
+        <div class="rating">★★★★★</div>
+        <p class="testimonial-text">
+          "Mudan Supermarket waa meesha ugu fiican ee aan ka helo raashinka ferska ah iyo khadadka guryaha. Shaqalaahoodu waa kuwa aad u edeb badan oo adeeg hooseeya bixiya!"
+        </p>
+      </div>
+
+      <!-- Testimonial Card 2 -->
+      <div class="testimonial-card">
+        <div class="user-info">
+          <div class="user-avatar">MA</div>
+          <div>
+            <h3 class="user-name">Maxamed Cali</h3>
+            <span class="user-role">Macmiil Joogto ah</span>
+          </div>
+        </div>
+        <div class="rating">★★★★★</div>
+        <p class="testimonial-text">
+          "Qiimaha alaabta iyo tayada Mudan Supermarket aad ayay isugu dheelitiran yihiin. Qaybta miraha iyo khadadka gaar ahaan aad ayaan uga helaa!"
+        </p>
+      </div>
+
+      <!-- Testimonial Card 3 -->
+      <div class="testimonial-card">
+        <div class="user-info">
+          <div class="user-avatar">FD</div>
+          <div>
+            <h3 class="user-name">Fadumo Dhool</h3>
+            <span class="user-role">Dukaamayste Mobayl</span>
+          </div>
+        </div>
+        <div class="rating">★★★★★</div>
+        <p class="testimonial-text">
+          "Aad ayaan ugu faraxsanahay sida ay u habaysan yihiin shelf-yada iyo adeegga garsiinta (delivery-ga) ee xawaaraha badan. Mudan waa doorashadayda kowaad!"
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+    <footer>
+        <p>&copy; 2026 Mudan Supermarket. All Rights Reserved.</p>
+    </footer>
+<script>
+    const menuToggle =
+        document.getElementById("menuToggle");
+
+    const navMenu =
+        document.getElementById("navMenu");
+
+    menuToggle.addEventListener("click", function () {
+        navMenu.classList.toggle("show");
+    });
+</script>
+
+</body>
+</html>
